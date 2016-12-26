@@ -1,0 +1,13 @@
+{
+  "name": "Spacer",
+  "description": "A simple HTTP app transforming text",
+  "repository": "https://github.com/justindowning/spacer",
+  "logo": "http://emojipedia-us.s3.amazonaws.com/cache/6d/26/6d26ad789aabf2caa3713e7d8b9130c8.png",
+  "keywords": ["ruby", "slack", "slash-command"]
+  "env": {
+    "AUTH_TOKEN": {
+      "description": "A secret token to verify incoming requests",
+      "generator": "secret"
+    }
+  }
+}
